@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+<com.example.pong.GameView
+android:layout_width="match_parent"
+android:layout_height="match_parent"/>
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="match_parent"
+    android:layout_height="96dp"
+    android:layout_gravity="bottom"
+    android:text="                     PONG 2"
+    android:textAlignment="center"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="#ffffff" />
+
+</FrameLayout>
